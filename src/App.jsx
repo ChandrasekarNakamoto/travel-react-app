@@ -8,7 +8,8 @@ import datas from './components/data'
 export default function App(){
     const output=datas.map(function(data) {
         return(
-       <Card img={data.imageUrl} />
+       <Card key={data.id}
+       {...data}/>
     )} )
 
     return(

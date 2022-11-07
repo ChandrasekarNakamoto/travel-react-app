@@ -3,15 +3,14 @@ import { TfiLocationPin } from "react-icons/tfi"
 
 export default function Card(props){
     const style = { color: "red"}
-    return (<section className='cardsec'>
+    return (<section className='cardsection'>
         <div className='firstcard'>
-        <img src={props.img}/>
+        <img src={props.imageUrl}/>
         </div>
         <div className='seccard'>
-            <h4>japan</h4>
-            <div>
-                <i><TfiLocationPin style={style}/></i>
-            </div>
+            <i><TfiLocationPin style={style}/></i>
+            <h4 className='loc'>{props.location}</h4>
+            <a className='map' href={props.googleMapsUrl} target="_blank">View on google maps</a>
         </div>
     </section>
     )

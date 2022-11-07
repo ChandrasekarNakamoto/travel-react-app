@@ -26,13 +26,31 @@ body{
 }
 
 
-.cardsec{
+.cardsection{
     display: flex;
-    height: 168px;
-
+    height: 200px;
+    margin: 36px;
 }
 
 .firstcard > img{
-    width: 100px;
+    width: 500px;
     height: 200px;
+}
+
+.seccard{
+    display: flex;
+    height: 20px;
+    gap:10px;
+    text-align: start;
+    justify-content: center;
+    margin-top: 0;
+}
+
+.loc{
+padding-top: 0px;
+}
+
+.map{
+    text-decoration: none;
+    color: black;
 }
