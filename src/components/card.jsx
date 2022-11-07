@@ -1,5 +1,5 @@
 import React from 'react'
-import TfiLocationPin  from "react-icons/tfi"
+import TfiLocationPin  from "react-icons"
 
 export default function Card(props){
     const style = { color: "red"}
