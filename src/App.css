@@ -7,8 +7,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap:10px;
-    margin: 0 auto;
+    gap:7px;
+    margin: 0 auto 75px auto;
     height:100px;
     background: #F55A5A;
     color: white;
@@ -29,14 +29,15 @@ body{
 .cardsection{
     display: flex;
     height:300px;
-    margin: 36px;
-    border: 1px solid #F5F5F5;
+    margin: 45px 300px 45px 300px;
+    border-bottom: 3px solid #F5F5F5;
 
 }
 
 .firstcard > img{
-    width: 250px;
-    height: 300px;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
 }
 
 .seccard{
@@ -51,9 +52,43 @@ body{
 .loc{
 padding-top: 0px;
 margin:0px;
+font-weight: 400;
+letter-spacing: 0.37em;
+padding-right: 10px;
 }
 
 .map{
-    text-decoration: none;
-    color: black;
+    font-weight: 400;
+    text-decoration-line: underline;
+    color: #918E9B;
+
+}
+
+.cardright{
+    padding:40px 20px ;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 35px;
+    color: #2B283A;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.date{
+    font-weight: 700;
+    font-size: 16.24px;
+    line-height: 17px;
+    color: #2B283A;
+    margin-bottom: 10px;
+
+}
+
+.data{
+    font-weight: 400;
+    font-size: 15.24px;
+    line-height: 150%;
+    color: #2B283A;
 }

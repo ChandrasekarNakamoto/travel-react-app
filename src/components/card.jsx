@@ -7,15 +7,15 @@ export default function Card(props){
         <div className='firstcard'>
         <img src={props.imageUrl}/>
         </div>
-        <div>
+        <div className='cardright'>
         <div className='seccard'>
             <i><TfiLocationPin style={style}/></i>
-            <h4 className='loc'>{props.location}</h4>
+            <h4 className='loc'>{props.location.toUpperCase()}</h4>
             <a className='map' href={props.googleMapsUrl} target="_blank">View on google maps</a>
             </div>
-            <h2>{props.title}</h2>
-        <h4>{props.startDate}-{props.endDate}</h4>
-        <p>{props.description}</p>
+            <h2 className='title'>{props.title}</h2>
+        <h4 className='date'>{props.startDate}-{props.endDate}</h4>
+        <p className='data'>{props.description}</p>
         </div>
         
     </section>
