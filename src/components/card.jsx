@@ -1,5 +1,5 @@
 import React from 'react'
-import { GrLocation } from "react-icons/gr";
+import { GrLocation } from "/react-icons/gr";
 
 export default function Card(props){
     const style = { color: "red"}
