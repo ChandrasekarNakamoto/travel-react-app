@@ -1,5 +1,5 @@
 import React from 'react'
-import TfiLocationPin  from "react-icons"
+import { GrLocation } from "react-icons/gr";
 
 export default function Card(props){
     const style = { color: "red"}
@@ -9,7 +9,7 @@ export default function Card(props){
         </div>
         <div className='cardright'>
         <div className='seccard'>
-            <i><TfiLocationPin style={style}/></i>
+            <i><GrLocation style={style}/></i>
             <h4 className='loc'>{props.location.toUpperCase()}</h4>
             <a className='map' href={props.googleMapsUrl} target="_blank">View on google maps</a>
             </div>
